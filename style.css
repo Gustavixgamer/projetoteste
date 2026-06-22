@@ -1,0 +1,36 @@
+@keyframes suave{
+        0% {background-color: #0616ff;}
+        25% {background-color: #1648eb;}
+        50% {background-color: rgb(117, 41, 240);}  
+        75% {background-color: rgb(153, 20, 241);} 
+        100% {background-color:rgba(153, 0, 255, 0.788) ;}    
+}
+
+.register {
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    width: 430px;
+    height: 100vh;
+
+    color: rgb(8, 8, 8);
+    
+
+    padding: 20px;
+    box-sizing: border-box;
+    
+    /* borda da sidebar*/
+    border-right: 1px solid;
+    border-color: black;
+    /*Fonte das letras*/
+    font-size: larger;
+    animation: suave 15s ease-in-out infinite alternate;
+}
+
+#tx1, #tx2, #tx3, #date1, #sexo {
+    border-color: #0e7fca;
+}
+body {
+    background-color: black;
+}

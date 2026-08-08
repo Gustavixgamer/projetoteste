@@ -1,36 +1,64 @@
-@keyframes suave{
-        0% {background-color: #0616ff;}
-        25% {background-color: #1648eb;}
-        50% {background-color: rgb(117, 41, 240);}  
-        75% {background-color: rgb(153, 20, 241);} 
-        100% {background-color:rgba(153, 0, 255, 0.788) ;}    
+.center {
+    justify-content: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    height: 500px;
 }
 
-.register {
+.button {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.NumberBar {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    height: 55px;
+    text-align: center;
+    font-size: 50px;
+}
+
+@media (min-width: 992px) {
+
+    .center {
+        justify-content: center;
+        width: 1000px;
+        height: 580px;
+    }
+
+    .button {
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+}
+
+.NumberBar {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    height: 55px;
+    text-align: center;
+    font-size: 50px;
+}
+
+h1 {
+    text-align: center;
+  
+}
+}
+
+.input {
+
     position: fixed;
-    left: 0;
-    top: 0;
-
-    width: 430px;
-    height: 100vh;
-
-    color: rgb(8, 8, 8);
-    
-
-    padding: 20px;
-    box-sizing: border-box;
-    
-    /* borda da sidebar*/
-    border-right: 1px solid;
-    border-color: black;
-    /*Fonte das letras*/
-    font-size: larger;
-    animation: suave 15s ease-in-out infinite alternate;
-}
-
-#tx1, #tx2, #tx3, #date1, #sexo {
-    border-color: #0e7fca;
-}
-body {
     background-color: black;
 }
